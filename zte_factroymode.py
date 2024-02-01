@@ -290,8 +290,8 @@ def parseArgs():
                         "user", "admin", "cuadmin", "lnadmin", "useradmin"])
     parser.add_argument('--pass', '-p', metavar='PASS', dest='pw', nargs='+', help='factorymode auth password', default=[
                         'nE%jA@5b', "aDm8H%MdA", "CUAdmin", "nE7jA%5m", "cqunicom",
-                        "1620@CTCC", "1620@CUcc", "admintelecom", "cuadmin", "lnadmin"])
-    parser.add_argument('--ip', help='route ip', default="192.168.1.1")
+                        "1620@CTCC", "1620@CUcc", "admintelecom", "cuadmin", "lnadmin", "2EUb8HVW"])
+    parser.add_argument('--ip', help='route ip', default="192.168.0.1")
     parser.add_argument('--port', help='router http port', type=int, default=80)
     subparsers = parser.add_subparsers(dest='cmd', title='subcommands',
                                        description='valid subcommands',
